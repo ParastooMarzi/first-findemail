@@ -86,19 +86,19 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<App />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path='/signup' element={<SignUp />} />
-        <Route path='/blog' element={<Blog />} />
-        <Route path='/readmore/:id' element={<ReadMore blogPosts={blogPosts} />} />
-        <Route path='/contactus' element={<ContactUs />} />
-        <Route path='/domain-search' element={<SearchDomain />} />
-        <Route path='/leak-search' element={<SearchLeak />} />
-        <Route path='/logs-search' element={<SearchLogs />} />
-        <Route path='/pricing' element={<Pricingin />} />
-        <Route path='/profile' element={<Profile />} />
-        <Route path='/indexed' element={<Indexed />} />
+        <Route path="" element={<Navigate to="/home" />} />
+        <Route path="home" element={<App />} />
+        <Route path="signin" element={<SignIn />} />
+        <Route path='signup' element={<SignUp />} />
+        <Route path='blog' element={<Blog />} />
+        <Route path='readmore/:id' element={<ReadMore blogPosts={blogPosts} />} />
+        <Route path='contactus' element={<ContactUs />} />
+        <Route path='domain-search' element={<SearchDomain />} />
+        <Route path='leak-search' element={<SearchLeak />} />
+        <Route path='logs-search' element={<SearchLogs />} />
+        <Route path='pricing' element={<Pricingin />} />
+        <Route path='profile' element={<Profile />} />
+        <Route path='indexed' element={<Indexed />} />
       </Routes>
     </Router>
   </React.StrictMode>,
