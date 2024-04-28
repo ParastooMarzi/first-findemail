@@ -57,7 +57,7 @@ const Sidebar = () => {
                 <NavLink
                   to={link.path}
                   key={link.title}
-                  className="text-red-600"
+
                   className={normalLink}
                 >
 

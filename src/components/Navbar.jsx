@@ -30,10 +30,10 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="hidden lg:flex justify-center space-x-12 items-center">
-              <button onClick={() => redirectTo("/signin")} className="py-2 px-3 border rounded-md">
+              <button onClick={() => redirectTo("./signin")} className="py-2 px-3 border rounded-md">
                 Sign In
               </button>
-              <button onClick={() => redirectTo("/signup")} className="bg-gradient-to-r from-red-500 to-red-800 py-2 px-3 rounded-md">
+              <button onClick={() => redirectTo("./signup")} className="bg-gradient-to-r from-red-500 to-red-800 py-2 px-3 rounded-md">
                 Create an account
               </button>
             </div>
@@ -53,10 +53,10 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex space-x-6">
-                <button onClick={() => redirectTo("/signin")} className="py-2 px-3 border rounded-md">
+                <button onClick={() => redirectTo("./signin")} className="py-2 px-3 border rounded-md">
                   Sign In
                 </button>
-                <button onClick={() => redirectTo("/signup")} className="py-2 px-3 rounded-md text-white bg-gradient-to-r from-red-500 to-red-800 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                <button onClick={() => redirectTo("./signup")} className="py-2 px-3 rounded-md text-white bg-gradient-to-r from-red-500 to-red-800 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                   Create an account
                 </button>
               </div>

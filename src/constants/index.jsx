@@ -5,15 +5,20 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-
+import user1 from "../assets/profile-pictures/user1.jpg";
+import user2 from "../assets/profile-pictures/user2.jpg";
+import user3 from "../assets/profile-pictures/user3.jpg";
+import user4 from "../assets/profile-pictures/user4.jpg";
+import user5 from "../assets/profile-pictures/user5.jpg";
+import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Home", href: "/home" },
+  { label: "Home", href: "./home" },
   { label: "Feature", href: "#" },
-  { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "./blog" },
   { label: "Pricing", href: "#" },
   { label: "FAQ", href: "#" },
-  { label: "Contact us", href: "/contactus" }
+  { label: "Contact us", href: "./contactus" }
 ];
 
 export const testimonials = [
@@ -25,7 +30,30 @@ export const testimonials = [
     question: "what is this service for : Introduction?",
     Answer: "there is more than millions Domains and 1 billion email and info also We search millions of websites every day to collect fresh professional contact information .",
   },
-
+  {
+    user: "David Johnson",
+    company: "Quantum Innovations",
+    image: user3,
+    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+  },
+  {
+    user: "Ronee Brown",
+    company: "Fusion Dynamics",
+    image: user4,
+    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+  },
+  {
+    user: "Michael Wilson",
+    company: "Visionary Creations",
+    image: user5,
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+  },
+  {
+    user: "Emily Davis",
+    company: "Synergy Systems",
+    image: user6,
+    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+  },
 ];
 
 export const features = [
