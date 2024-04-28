@@ -1,0 +1,49 @@
+{
+  "hash": "329847e8",
+  "configHash": "c1f90f02",
+  "lockfileHash": "2791a35f",
+  "browserHash": "e966e340",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "fd9f471a",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "c3d80b7e",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "edabee2d",
+      "needsInterop": false
+    },
+    "postcss": {
+      "src": "../../node_modules/postcss/lib/postcss.mjs",
+      "file": "postcss.js",
+      "fileHash": "62e752c0",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "b58e432c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IBXAGRP2": {
+      "file": "chunk-IBXAGRP2.js"
+    },
+    "chunk-FQO5W7GE": {
+      "file": "chunk-FQO5W7GE.js"
+    },
+    "chunk-ZS7NZCD4": {
+      "file": "chunk-ZS7NZCD4.js"
+    }
+  }
+}
